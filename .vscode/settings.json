@@ -6,6 +6,13 @@
         "--load-pluns", 
         "pylint_django"
     ],
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=248",
+        "--ignore=F401,W291,W292,W293,E203,E251"
+    ],
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.colorCustomizations": {
         "terminal.background": "#181818",
         "terminal.foreground": "#26e045",
