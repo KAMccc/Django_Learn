@@ -3,11 +3,12 @@
         "**/__pycache__": true
     },
     "python.linting.pylintArgs": [
-        "--load-pluns", 
-        "pylint_django"
+        "--load-plugns", 
+        "pylint_django",
     ],
     "python.formatting.provider": "yapf",
     "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=248",
         "--ignore=F401,W291,W292,W293,E203,E251"
@@ -41,4 +42,5 @@
         "terminal.integrated.fontFamily": "Lucida Console", //字体设置
         "terminal.integrated.shell.linux": "/bin/zsh",
     },
+    "python.pythonPath": "venv\\Scripts\\python.exe",
 }
