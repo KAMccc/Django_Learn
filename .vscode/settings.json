@@ -42,5 +42,4 @@
         "terminal.integrated.fontFamily": "Lucida Console", //字体设置
         "terminal.integrated.shell.linux": "/bin/zsh",
     },
-    "python.pythonPath": "venv\\Scripts\\python.exe",
 }
