@@ -42,4 +42,5 @@
         "terminal.integrated.fontFamily": "Lucida Console", //字体设置
         "terminal.integrated.shell.linux": "/bin/zsh",
     },
+    "restructuredtext.confPath": "${workspaceFolder}\\hello_django\\venv\\Lib\\site-packages\\django\\urls",
 }
